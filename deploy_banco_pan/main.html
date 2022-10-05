@@ -4,29 +4,110 @@
         <meta charset="UTF-8"/>
         <title> Aplicacao Oficial </title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="main.css"></link>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1> Turing Labs / Cliente com atrito ou não </h1>
-        <label> Credito do cliente: </label>
-            <input id="credito">
-        <label> Saldo do cliente </label>
-            <input id="saldo">
-        <label> Quantidade de atendimento atrasado:</label>
-            <input id="qtd_atend_atrs">
-        <label> Quantidade de produtos:</label>
-            <input id="qtd_prod">
-        <label> Quantidade de atendimento:</label>
-            <input id="qtd_atend">
-        <label> Quantidade de operacoes:</label>
-            <input id="qtd_oper">
-        <label> Quantidade de reclamacoes:</label>
-            <input id="qtd_reclm">
-        <label> Indice de Engajado:</label>
-            <input id="ind_engajado">
-        <button id="botao"> CONFIRMA </button>
-        <div>
-            <h1 id="resultado">
-            </h1>
+        <div id="caixa-titulo">
+            <image src="mh-icon--logo-desktop.svg">
+        </div>
+        <div id="titulo-oficial">
+            <h1 id="conteudo"> Indice de Atrito </h1>
+        </div>
+        <div id="forms">
+        <div id="primeira-linha">
+            <div id="primeira-caixa">
+                <div id="caixa-credito">
+                    <div id="titulo-credito">
+                        <label id="conteudo"> Credito do cliente: </label>
+                    </div>
+                    <div id="campo-credito">
+                        <input id="credito">
+                    </div>
+                </div>
+                <div id="caixa-saldo">
+                    <div id="titulo-saldo">
+                        <label id="conteudo"> Saldo do cliente: </label>
+                    </div>
+                    <div id="campo-saldo">
+                        <input id="saldo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="segunda-linha">
+            <div id="segunda-caixa">
+                <div id="caixa-atendimento-atrasado">
+                    <div id="titulo-quantidade-atrasada">
+                        <label id="conteudo"> Atendimento atrasado:</label>
+                    </div>
+                    <div id="campo-quantidade-atrasada">
+                        <input id="qtd_atend_atrs">
+                    </div>
+                </div>
+                <div id="caixa-produtos">
+                    <div id="titulo-quantidade-produto">
+                        <label id="conteudo"> Quantidade de produtos:</label>
+                    </div>
+                    <div id="campo-quantidade-produto">
+                        <input id="qtd_prod">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="terceira-linha">
+            <div id="terceira-caixa">
+                <div id="caixa-atendimento">
+                    <div id="titulo-quantidade-atendimento">
+                        <label id="conteudo"> Atendimento:</label>
+                    </div>
+                    <div id="campo-quantidade-atendimento">
+                        <input id="qtd_atend">
+                    </div>
+                </div>
+                <div id="caixa-operacoes">
+                    <div id="titulo-quantidade-operacoes">
+                        <label id="conteudo"> Quantidade de operacoes:</label>
+                    </div>
+                    <div id="campo-quantidade-operacoes">
+                        <input id="qtd_oper">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="quarta-linha">
+            <div id="quarta-caixa">
+                <div id="caixa-quantidade-reclamacoes">
+                    <div id="titulo-quantidade-reclamacoes">
+                        <label id="conteudo"> Reclamacoes:</label>
+                    </div>
+                    <div id="campo-quantidade-reclamacoes">
+                        <input id="qtd_reclm">
+                    </div>
+                </div>
+                <div id="caixa-indice-engajado">
+                    <div id="titulo-indice-engajado">
+                        <label id="conteudo"> Indice de Engajado:</label>
+                    </div>
+                    <div id="campo-indice-engajado">
+                        <input id="ind_engajado">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="quinta-linha">
+            <div id="quinta-caixa">
+                <div id="caixa-confirma">
+                    <button id="botao"> CONFIRMA </button>
+                </div>
+                <div id="caixa-resultado">
+                    <h1 id="resultado">
+                    </h1>
+                </div>
+            </div>
+        </div>
         </div>
     </body>
     <script src="main.js"></script>

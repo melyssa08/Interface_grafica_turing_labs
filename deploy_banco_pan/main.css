@@ -1,0 +1,115 @@
+#primeira-caixa, #segunda-caixa, #terceira-caixa, #quarta-caixa, #quinta-caixa {
+    display: flex;
+    height: 80px;
+    /* border-style: dashed;
+    border-color: green;
+    border-width: 3px; */
+    justify-content: center;
+}
+
+#quinta-caixa {
+    justify-content: center;
+}
+
+#caixa-credito, #caixa-saldo, #caixa-atendimento-atrasado, #caixa-produtos, 
+#caixa-atendimento, #caixa-operacoes, #caixa-quantidade-reclamacoes, #caixa-indice-engajado {
+    display: flex;
+    width: 30%;
+    /* border-style: dashed;
+    border-color: red;
+    border-width: 3px; */
+}
+
+#titulo-oficial {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* border-style: dashed;
+    border-color: red;
+    border-width: 3px; */
+}
+
+
+#primeira-linha, #segunda-linha, #terceira-linha, #quarta-linha, #quinta-linha {
+    display: grid;
+    /* border-style: dashed;
+    border-color: aqua;
+    border-width: 3px; */
+    width: 100%;
+}
+
+#caixa-titulo {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    padding: 0;
+    margin: 0;
+}
+
+
+#credito, #saldo, #qtd_atend_atrs, #qtd_prod, #qtd_atend, #qtd_oper, #qtd_reclm, #ind_engajado {
+    height: 30px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#campo-credito, #campo-saldo, #campo-quantidade-produto,
+#campo-quantidade-atrasada, #campo-quantidade-atendimento, #campo-quantidade-operacoes,
+#campo-quantidade-reclamacoes, #campo-indice-engajado {
+    /* border-style: dashed;
+    border-color: blue;
+    border-width: 3px; */
+    width: 50%;
+    display: flex;
+    grid-column: auto;
+    justify-content: center;
+    border-width: 0px;
+}
+
+#forms {
+    margin-top: 10px;
+    
+}
+
+#titulo-credito, #titulo-saldo, #titulo-quantidade-produto,
+#titulo-quantidade-atrasada, #titulo-quantidade-atendimento, #titulo-quantidade-operacoes,
+#titulo-quantidade-reclamacoes, #titulo-indice-engajado {
+    /* border-style: dashed;
+    border-color: blue;
+    border-width: 3px; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#botao {
+    width: 40%;
+    height: 50%;
+    border-radius: 20px;
+    color: white;
+    background-color: #303030;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+body {
+    background-color: #0985e4;
+}
+
+#caixa-confirma {
+    /* border-style: dashed;
+    border-color: blue;
+    border-width: 3px; */
+    width: 50%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+#conteudo {
+
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
